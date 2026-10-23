@@ -1,0 +1,50 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Maven
+target/
+
+# Logs
+logs/
+*.log
+
+# Environment files
+.env
+.env.*
+
+# Application secrets
+application-local.properties
+application-local.yml
+application-prod.properties
+application-prod.yml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Java
+*.class
+
+# Generated files
+out/
+bin/
+
+.mvn/
+mvnw
+mvnw.cmd
+
+# VS Code (kalau kadang buka di VS Code)
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+nbproject/
+
+# Temporary files
+*.tmp
+*.swp
