@@ -35,14 +35,14 @@
             <artifactId>spring-boot-starter-validation</artifactId>
         </dependency>
 
-        <!-- Database utama: MySQL -->
+        <!-- Database utama: PostgreSQL -->
         <dependency>
-            <groupId>com.microsoft.sqlserver</groupId>
-            <artifactId>mssql-jdbc</artifactId>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
             <scope>runtime</scope>
         </dependency>
 
-        <!-- Opsional: H2 untuk mencoba tanpa install MySQL (profile "h2") -->
+        <!-- Opsional: H2 untuk mencoba tanpa PostgreSQL (profile "h2") -->
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
