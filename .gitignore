@@ -50,4 +50,4 @@ nbproject/
 *.swp
 
 # Resources
-src/main/resources/
+src/main/resources/application.properties
