@@ -48,3 +48,6 @@ nbproject/
 # Temporary files
 *.tmp
 *.swp
+
+# Resources
+src/main/resources/
